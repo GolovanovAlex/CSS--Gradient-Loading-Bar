@@ -20,4 +20,7 @@ body {
 }
 .loader::before {
   content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #fb0094, #0000ff, #00ff00, #ffff00);
 }
